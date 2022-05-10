@@ -121,6 +121,9 @@ class DBPlay:
                         print("Sorry!!! Column doesn't exist")
 
     def start_process():
+        """
+        To start and Connect to the database
+        """
         map_dict = {
             1: DBPlay.create_table,
             2: DBPlay.drop_table,
